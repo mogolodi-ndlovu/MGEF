@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Register</title>
+    <link rel="stylesheet" href="/pages/styling/register.css" />
+  </head>
+  <body>
+    <div class="registration_form">
+      <h2>Register</h2>
+      <h4>Student Information</h4>
+      <div class="first-row">
+        <input
+          type="text"
+          name="firstname"
+          id="firstname"
+          placeholder="Firstname"
+          class="input_text"
+          required
+        />
+        <input
+          type="text"
+          name="Lastname"
+          id="Lastname"
+          placeholder="Lastname"
+          class="input_text"
+          required
+        />
+      </div>
+
+      <div class="second-row">
+        <input
+          type="email"
+          name="username"
+          id="username"
+          placeholder="Enter Username"
+          class="input_text"
+          required
+        />
+        <input
+          type="number"
+          name="studentphone"
+          id="studentphone"
+          placeholder="Phone"
+          class="input_text"
+          required
+        />
+      </div>
+
+      <div class="third-row">
+        <input
+          type="address"
+          name="address"
+          id="address"
+          placeholder="address"
+          class="input_text"
+          required
+        />
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Enter Password"
+          class="input_text"
+        />
+      </div>
+
+      <div class="drop_roles">
+        <select class="roles" id="roles" name="roles">
+          <option value="student">Student</option>
+          <option value="teacher">Teacher</option>
+          <option value="admin">Admin</option>
+        </select>
+      </div>
+      <div class="next-of-kin">
+        <hr />
+        <h4>Next of Kin Information</h4>
+        <div class="first-row">
+          <input
+            type="text"
+            name="firstname"
+            id="firstname"
+            placeholder="Firstname"
+            class="input_text"
+            required
+          />
+          <input
+            type="text"
+            name="Lastname"
+            id="Lastname"
+            placeholder="Lastname"
+            class="input_text"
+            required
+          />
+        </div>
+        <div class="first-row">
+          <input
+            type="text"
+            name="firstname"
+            id="firstname"
+            placeholder="Firstname"
+            class="input_text"
+            required
+          />
+          <input
+            type="text"
+            name="Lastname"
+            id="Lastname"
+            placeholder="Lastname"
+            class="input_text"
+            required
+          />
+        </div>
+      </div>
+      <input
+        type="button"
+        name="login_btn"
+        id="login_btn"
+        class="btn"
+        value="Sign In"
+      />
+      <hr />
+      <h5>Already have an account? <a href="login.html">Sign In here</a></h5>
+    </div>
+  </body>
+</html>

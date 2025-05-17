@@ -1,0 +1,73 @@
+.login_form {
+	padding: 10px 10px;
+	justify-items: center;
+	text-align: center;
+	border-radius: 5px;
+	width: 30dvw;
+	height: 610px;
+	margin: 1px;
+	background-color: rgba(188, 150, 200, 0.8);
+  }
+  .login_form:hover {
+	box-shadow: 0 20px 38px rgba(0, 0, 0, 0.3), 0 16px 13px rgba(0, 0, 0, 0.22);
+	translate: 4px -1%;
+	margin: 1%;
+  }
+  .input_text {
+	height: 35px;
+	width: 80%;
+	margin: 10px 0px 10px 0px;
+	padding: 5px;
+	border-style: none;
+	border-radius: 5px;
+	text-align: center;
+  }
+  .input_text:hover {
+	translate: 5px -3%;
+	box-shadow: 0 18px 36px rgba(0, 0, 0, 0.3), 0 14px 11px rgba(0, 0, 0, 0.22);
+  }
+  .drop_roles {
+	margin: 5px 5px 10px 5px;
+  }
+  select {
+	margin-left: 10px;
+	width: fit-content;
+	height: 30px;
+	border-radius: 5px;
+	text-align: center;
+  }
+  
+  .btn {
+	margin: 10px 10px;
+	background-color: rgb(85, 188, 236);
+	width: 55%;
+	height: 35px;
+	border-radius: 5px;
+	text-decoration: solid;
+	border-style: none;
+  }
+  .btn:hover {
+	box-shadow: 0 18px 36px rgba(0, 0, 0, 0.3), 0 14px 11px rgba(0, 0, 0, 0.22);
+	translate: 10px -2%;
+	background-color: rgb(93, 93, 182);
+  }
+  
+  .horizontal {
+	width: 100%;
+	background-color: antiquewhite;
+	height: 1.5px;
+  }
+  .signin_with {
+	width: 100%;
+	padding: 3px 1px 3px 1px;
+	background-color: white;
+	margin: 10px 0px 10px 0px;
+  }
+  .icon {
+	width: 25px;
+	height: 25px;
+	margin: 1px 10px 1px 10px;
+  }
+  .login_form h4 {
+	margin: 10px 10px;
+  }

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/pages/styling/login.css" />
+	<title>login</title>
+</head>
+<body>
+	<div class="login_form">
+        <h2>Login</h2>
+        <input
+          type="email"
+          name="username"
+          id="username"
+          placeholder="Enter Username"
+          class="input_text"
+          required
+        />
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Enter Password"
+          class="input_text"
+        />
+
+        <div class="drop_roles">
+          <select class="roles" id="roles">
+            <option value="student">
+              <p>Student</p>
+            </option>
+            <option value="teacher">
+              <p>Teacher</p>
+            </option>
+            <option value="admin">
+              <p>Admin</p>
+            </option>
+          </select>
+        </div>
+
+        <input
+          type="button"
+          name="login_btn"
+          id="login_btn"
+          class="btn"
+          value="Sign In"
+        />
+        <div class="horizontal"></div>
+
+        <div class="signin_with">
+          <img
+            src="/images/google_icon.png"
+            alt="google"
+            id="google"
+            class="icon"
+          />
+
+          <img
+            src="/images/facebook_icon.png"
+            alt="facebook"
+            id="facebook"
+            f
+            class="icon"
+          />
+
+          <img
+            src="/images/twitter_icon.png"
+            alt="tiwtter"
+            id="tiwtter"
+            class="icon"
+          />
+          <img
+            src="/images/instagram_icon.png"
+            alt="Instagram"
+            id="instagram"
+            class="icon"
+          />
+        </div>
+
+        <div class="horizontal"></div>
+        <h4>OR</h4>
+        <p>Create new account <a href="register.html">Here!</a></p>
+      </div>
+</body>
+</html>
